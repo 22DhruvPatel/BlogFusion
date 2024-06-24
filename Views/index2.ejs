@@ -1,0 +1,16 @@
+<%- include("partials/header.ejs") %>
+
+<div id="form-div">
+<h1 id="newblog">Create A New Blog</h1>
+<form action="/new" method="POST">
+  
+  <label><h3>Blog Title</h3></label>
+  <input type="text" textarea="title.." id="blogtitle" name="blogtitle" required>
+  
+  <label><h3>Content</h3></label>
+  <textarea type="text" id="textarea" rows="20", cols="150" vlaue="content" name="content" required></textarea>
+  <button id="create" type="submit" href="/new">Create</button>
+</form>
+</div>
+
+<%- include("partials/footer.ejs") %>

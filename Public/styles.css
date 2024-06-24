@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+footer {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: gray;
+  text-align: center;
+  padding: 2%;
+  color: white;
+  width: 100%;
+}
+
+#blogfusion{
+  color: blue;
+}
+
+
+#button {
+  border: 0;
+  padding: 10 px;
+  border-radius: 30px;
+  width: 250px;
+  height: 4rem;
+  border: 3px solid blue;
+  margin: auto;
+  margin-top: 20px;
+}
+
+button:hover{
+  background-color: lightgray;
+}
+
+h4{
+  padding: 40px;
+}
+
+#list {
+  border: 5px solid blue;
+  background-color:lightslategrey;
+  color: black;
+  text-align: left;
+  margin: auto;
+  padding: 20px;
+}
+
+img {
+  margin: auto;
+  padding: 1%;
+  width: 100%;
+}
+
+#newblog {
+  text-align: center;
+  box-shadow: 10px 5px 5px blue;
+  background-color: gray;
+  color: white;
+}
+
+form {
+  margin: auto;
+  padding: 40px;
+  display: grid;
+  width: 50%;
+  text-align: center;
+}
+
+#form-div {
+  margin: 1%;
+  padding: 1%;
+  border: 3px solid black;
+  border-radius: 40px;
+  background-color: rgb(210, 208, 208);
+}
+
+#blogtitle,textarea {
+  background-color: rgb(244, 244, 244);
+  color: rgb(22, 183, 194);
+  border-radius: 40px;
+  padding: 5px;
+  
+}
+
+#blogtitle {
+  line-height: 2rem;
+  font-size: large;
+}
+
+#textarea {
+  padding: 10px;
+  text-decoration: none;
+}
+
+#create {
+  text-decoration: none;
+  border: none;
+  width: 30%;
+  border-radius: 40px;
+  line-height: 2.5rem;
+  background-color: blue;
+  color: white;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 5px;
+}
+
+#create:hover {
+  background-color: white;
+  color: blue;
+}
+
+#singleblog, singlecontent {
+  text-align: center;
+  margin: auto;
+
+}
